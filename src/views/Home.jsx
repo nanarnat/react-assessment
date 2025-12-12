@@ -10,7 +10,7 @@ import CreateUser from "../components/CreateUser";
 export default function Home() {
     const [view,setView] = useState("Normal");
     return (
-        <div className="bg-amber-100 h-dvh w-full">
+        <div className="bg-amber-100 min-h-screen w-full">
             <div>
                 {view === "Normal" && <Normal/> }
                 {view === "User" && <User/> }
@@ -31,7 +31,7 @@ export default function Home() {
             </div>
             
             {view === "User" && <UserTable/> }
-            {view === "Admin" && <CreateUser/>}
+            
             {view === "Admin" && <AdminTable/> }
 
         </div>
