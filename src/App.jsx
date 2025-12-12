@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Owner from "./components/Owner";
+import Owner from "./views/Owner";
 import ViewToggleButton from "./components/ViewToggleButton";
-import Home from "./components/Home";
+import Home from "./views/Home";
 
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
           Owner
         </ViewToggleButton>
       </div>
-      <hr class="border-brown w-full"/>
+      <hr className="border-brown w-full"/>
 
       <div>
       {view === "Home" && <Home/> } 
