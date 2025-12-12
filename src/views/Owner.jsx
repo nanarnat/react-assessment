@@ -1,6 +1,6 @@
 export default function Owner() {
     return (
-        <div className="flex flex-col items-center mt-8 w-full px-25 gap-5">
+        <div className="flex flex-col items-center pt-8 w-full px-25 gap-5 bg-blue-100 h-dvh">
             <h1 className="text-4xl font-semibold">23 Nattha (เกม) - JSD11</h1>
             <img src="https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2281862025.jpg" className="h-50 w-50 rounded-full"/>
             <h2 className="text-2xl font-medium">Short Biography:</h2>
